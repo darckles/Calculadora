@@ -86,7 +86,9 @@ public class Conexao extends SQLiteOpenHelper {
 	     }
 	 
 	      return checkDB != null ? true : false;
-	} public void abrirDataBase() throws SQLException
+	} 
+	
+	public void abrirDataBase() throws SQLException
 	{
 	      String myPath = DB_PATH + DB_NAME;
 	dbQuery = SQLiteDatabase.openDatabase(myPath, null,      SQLiteDatabase.OPEN_READWRITE);
@@ -109,6 +111,18 @@ public class Conexao extends SQLiteOpenHelper {
 	            } 
 	            return list; 
 	} 
+	
+	
+	public List<String> mostra_sintomas(List campos, int cont){
+		
+		List<String> lista = new ArrayList<String>();
+		
+		
+		Cursor cursor = dbQuery.rawQuery("SELECT "+ campos + "from SINTOMAS WHERE SINTOMAS"  , null);
+		return null;
+		
+		
+	}
 	    
 	@Override
 	public synchronized void close() 
