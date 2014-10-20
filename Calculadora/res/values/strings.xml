@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calculadora</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btnLimpiar">C</string>
+    <string name="btn_mas_menos">+/-</string>
+    <string name="bt1">1</string>
+    <string name="bt2">2</string>
+    <string name="bt0">0</string>
+    <string name="bt3">3</string>
+    <string name="bt4">4</string>
+    <string name="bt5">5</string>
+    <string name="bt6">6</string>
+    <string name="bt7">7</string>
+    <string name="bt8">8</string>
+    <string name="bt9">9</string>
+    <string name="btmais">+</string>
+    <string name="btmenos">-</string>
+    <string name="btmult">X</string>
+    <string name="btdividi">&#247;</string>
+    <string name="btigual">=</string>
+    <string name="btporcento">%</string>
+    <string name="btExp">1/x</string>
+    <string name="btraiz">V</string>
+    <string name="btnCE">CE</string>
+    <string name="btponto">.</string>
+    <string name="btnApagar">&lt;</string>
+
+</resources>
